@@ -3,7 +3,7 @@ guideh
 
 Калькулятор КАСКО https://guideh.com
 
-#Настройка локальной машины для запуска скрипта
+# Настройка локальной машины для запуска скрипта
  
  1. Установить Firefox
  2. Установить Python (https://www.python.org/downloads/release/python-342/)
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 УСПЕХ! Вы готовы к использованию скрипта локально на своей виндовой машине
 
-#Использование
+# Использование
 
 ```bash
 python kasko-calc sample.xls

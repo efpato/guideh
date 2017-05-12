@@ -54,12 +54,12 @@ def load(filename):
                 "driver_age": [
                     int(float(age))
                     for age in str(sheet.cell_value(row, 19)).split(';')
-                    if sheet.cell_value(row, 19)
+                    if str(sheet.cell_value(row, 19))
                 ],
                 "driver_experience": [
                     int(float(experience))
                     for experience in str(sheet.cell_value(row, 20)).split(';')
-                    if sheet.cell_value(row, 20)
+                    if str(sheet.cell_value(row, 20))
                 ]
             })
 
